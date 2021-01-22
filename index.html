@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  
+    <title>Wheel Mode</title>
+</head>
+<body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+        <a class="my-0 mr-md-auto font-weight-normal" href="#"><img src="img/logo.png"></a>
+        <nav class="my-2 my-md-0 mr-md-3">
+          <a class="p-2 text-dark" href="#">Tyres</a>
+          <a class="dropdown">
+            <a class="dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Brakes</a>
+              <a class="dropdown-item" href="#">Batterirs</a>
+            </div>
+        </a>
+          <a class="p-2 text-dark" href="#">Installer Network</a>
+          <a class="p-2 text-dark" href="#">Services</a>
+          <a class="fa fa-shopping-cart" href="#">Cart</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="process">
+            <h3>
+                Our 4 Step process
+            </h3>
+            <p> The easiest way to search and buy new tyres </p>
+        </div>
+        <!-- Example row of columns -->
+        <div class="image">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/1.png">
+            <h3>Search & select your tyres</h3>
+            <p>We stock a wide range of online tyres for all vehicles Choose Installation mode </p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/2.png">
+            <h3>Choose Installation mode</h3>
+            <p>You can select 100+ Installers across UAE, you can also choose mobile fitment or home delivery</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/3.png">
+            <h3>Secure online payment</h3>
+            <p>We ensure you that our payment gateways are 100% safe</p>
+ 
+          </div>
+          <div class="col-md-3">
+            <img src="img/4.png">
+            <h3>Delivery & Installation</h3>
+            <p>Within 24hrs your tyres will be delivered to your select location</p>
+        
+          </div>
+        </div>
+        </div>
+        <hr>
+
+      </div>
+      <div class="container mt-3">
+        <div id="myCarousel" class="carousel slide">
+        
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li class="item1 active"></li>
+          <li class="item2"></li>
+          <li class="item3"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/75-percent-offer.jpg" alt="Los Angeles" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="img/buy-3-get-1-free.jpg" alt="Chicago" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="img/installation-free.jpg" alt="New York" width="1100" height="500">
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-outline-danger">See more offers</button>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#myCarousel">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      </div>
+    
+      
+      <script>
+      $(document).ready(function(){
+        // Activate Carousel with a specified interval
+        $("#myCarousel").carousel({interval: 500});
+              
+        // Enable Carousel Indicators
+        $(".item1").click(function(){
+          $("#myCarousel").carousel(0);
+        });
+        $(".item2").click(function(){
+          $("#myCarousel").carousel(1);
+        });
+        $(".item3").click(function(){
+          $("#myCarousel").carousel(2);
+        });
+          
+        // Enable Carousel Controls
+        $(".carousel-control-prev").click(function(){
+          $("#myCarousel").carousel("prev");
+        });
+        $(".carousel-control-next").click(function(){
+          $("#myCarousel").carousel("next");
+        });
+      });
+      </script>
+
+      <div class="add">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-sm-3">
+                  <img src="img/truck.svg">
+                  <b>Fast Delivery</b>
+              </div>
+              <div class="col-sm-3">
+                <img src="img/truck.svg">
+                <b>Fast Delivery</b>
+            </div>
+            <div class="col-sm-3">
+                <img src="img/medal.svg">
+                <b>Fast Delivery</b>
+            </div>
+            <div class="col-sm-3">
+                <img src="img/medal.svg">
+                <b>Fast Delivery</b>
+            </div>
+          </div>
+
+      </div>
+      </div>
+      
+
+
+      
+</body>
+</html>
